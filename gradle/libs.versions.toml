@@ -1,7 +1,8 @@
 [versions]
-jetbrains-compose = "1.6.2"
-kobweb = "0.17.2"
-kotlin = "1.9.23"
+jetbrains-compose = "1.5.12"
+kobweb = "0.16.1"
+kotlin = "1.9.22"
+k-bootstrap = "0.1.1"
 
 [libraries]
 kobweb-api = { module = "com.varabyte.kobweb:kobweb-api", version.ref = "kobweb" }
@@ -12,6 +13,7 @@ kobwebx-markdown = { module = "com.varabyte.kobwebx:kobwebx-markdown", version.r
 silk-foundation = { module = "com.varabyte.kobweb:silk-foundation", version.ref = "kobweb" }
 silk-icons-fa = { module = "com.varabyte.kobwebx:silk-icons-fa", version.ref = "kobweb" }
 silk-icons-mdi = { module = "com.varabyte.kobwebx:silk-icons-mdi", version.ref = "kobweb" }
+kotlin-bootstrap= {module = "com.github.stevdza-san:KotlinBootstrap",version.ref ="k-bootstrap"}
 
 [plugins]
 jetbrains-compose = { id = "org.jetbrains.compose", version.ref = "jetbrains-compose" }
